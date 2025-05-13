@@ -21,7 +21,7 @@ console.log("===========================================\n".green);
 // ========== CONFIGURATION ========== //
 const TARGET_URL = process.argv[2] || "https://example.com";
 const THREADS = parseInt(process.argv[3]) || 5;
-const PROXY_FILE = process.argv[4] || "proxies.txt";
+const PROXY_FILE = process.argv[4] || "proxy.txt";
 const REQUEST_RATE = parseInt(process.argv[5]) || 30;
 const DURATION = parseInt(process.argv[6]) || 300; // in seconds
 const FLOOD_MODE = process.argv[7] === "true";
