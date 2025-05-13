@@ -5,6 +5,11 @@ const axios = require('axios');
 const fs = require('fs');
 const { spawn } = require('child_process');
 const colors = require('colors');
+console.clear();
+console.log("===========================================".green);
+console.log("   🚀 Script by DuocDev – All Rights Reserved".cyan);
+console.log("   🔒 Private Use Only | ❌ No Redistribution".yellow);
+console.log("===========================================\n".green);
 
 // ========== CONFIGURATION ========== //
 const TARGET_URL = process.argv[2] || "https://example.com";
