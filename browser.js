@@ -1,3 +1,10 @@
+/**
+ * ==================================================
+ *  🚀 Script by DuocDev
+ *  🔒 All Rights Reserved – Private Use Only
+ *  ❌ Redistribution or commercial use is prohibited
+ * ==================================================
+ */
 const puppeteer = require('puppeteer-extra');
 const StealthPlugin = require('puppeteer-extra-plugin-stealth');
 const AdblockerPlugin = require('puppeteer-extra-plugin-adblocker');
